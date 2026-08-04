@@ -67,7 +67,7 @@
 <body>
 
 <h1>Politique de confidentialité — Zeroa</h1>
-<p class="updated">Dernière mise à jour : 3 août 2026</p>
+<p class="updated">Dernière mise à jour : 4 août 2026</p>
 
 <p>
 La présente politique de confidentialité décrit comment l'application mobile <strong>Zeroa</strong>
@@ -90,9 +90,14 @@ Pour toute question relative à cette politique ou à vos données, voir la sect
 
 <h3>2.1 Données que vous nous fournissez directement</h3>
 <p>
-À ce jour, Zeroa ne requiert <strong>aucune création de compte</strong> et ne collecte
-<strong>aucune donnée d'identification directe</strong> (nom, email, numéro de téléphone).
-Vous pouvez jouer sans fournir la moindre information personnelle.
+Zeroa ne requiert aucune création de compte avec email ou mot de passe. À la place, un identifiant
+anonyme est généré automatiquement à votre premier lancement de l'application (authentification anonyme),
+sans que vous ayez à fournir de nom, email ou numéro de téléphone.
+</p>
+<p>
+Si vous utilisez la fonctionnalité « Amis », un pseudonyme généré automatiquement (ex : « Joueur1234 »)
+et un code d'ami à 6 caractères sont associés à cet identifiant anonyme et sont visibles par les personnes
+avec qui vous partagez ce code. Vous ne renseignez vous-même aucune information personnelle à cette occasion.
 </p>
 
 <h3>2.2 Données collectées automatiquement</h3>
@@ -120,7 +125,27 @@ Vous pouvez jouer sans fournir la moindre information personnelle.
   <td>Respect de vos préférences en matière de publicité personnalisée</td>
   <td>Google User Messaging Platform (UMP)</td>
 </tr>
+<tr>
+  <td>Identifiant anonyme, pseudonyme généré, code d'ami, liste de relations d'amitié</td>
+  <td>Fonctionnement de la fonctionnalité « Amis » et du classement entre amis</td>
+  <td>Google Firebase (Authentication, Firestore)</td>
+</tr>
+<tr>
+  <td>Résultats de jeu quotidiens (temps de résolution, nombre de coups, difficulté, date)</td>
+  <td>Affichage du classement du jour entre amis</td>
+  <td>Google Firebase (Firestore)</td>
+</tr>
+<tr>
+  <td>Statut d'achat (achat effectué ou non, identifiant anonyme associé)</td>
+  <td>Débloquer et restaurer la fonctionnalité « Indices illimités » que vous avez achetée</td>
+  <td>RevenueCat</td>
+</tr>
 </table>
+<p>
+Les résultats de jeu quotidiens et les relations d'amitié ne sont visibles que par vous et par les personnes
+que vous avez ajoutées comme amis via un code que vous avez choisi de partager. Ils ne sont jamais publics
+ni visibles par des utilisateurs non ajoutés.
+</p>
 
 <h3>2.3 Données stockées uniquement sur votre appareil</h3>
 <p>
@@ -134,6 +159,8 @@ Si vous désinstallez l'application, ces données sont supprimées.
   <li><strong>Publicité personnalisée :</strong> votre consentement explicite, recueilli via le formulaire de consentement (CMP) au premier lancement de l'application, conformément au RGPD et à la directive ePrivacy.</li>
   <li><strong>Publicité non personnalisée :</strong> affichée par défaut si vous ne consentez pas à la personnalisation, sur la base de l'intérêt légitime à financer une application gratuite.</li>
   <li><strong>Statistiques d'usage et rapports de plantage :</strong> intérêt légitime à assurer le bon fonctionnement et l'amélioration continue de l'application.</li>
+  <li><strong>Fonctionnalité « Amis » et classement :</strong> exécution du service que vous avez explicitement choisi d'activer en ajoutant un ami via un code que vous avez partagé ou reçu volontairement.</li>
+  <li><strong>Achat in-app (« Indices illimités ») :</strong> exécution du contrat d'achat que vous avez initié.</li>
 </ul>
 
 <h2>4. Partage des données avec des tiers</h2>
@@ -143,7 +170,8 @@ dans le cadre strict des finalités décrites ci-dessus :
 </p>
 <ul>
   <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob</a> — diffusion des publicités récompensées</li>
-  <li><a href="https://firebase.google.com/support/privacy" target="_blank">Google Firebase</a> — analytics et rapports de plantage</li>
+  <li><a href="https://firebase.google.com/support/privacy" target="_blank">Google Firebase</a> — analytics, rapports de plantage, fonctionnalité « Amis » et classement</li>
+  <li><a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat</a> — gestion et validation de l'achat in-app « Indices illimités »</li>
 </ul>
 <p>
 Si vous consentez à la publicité personnalisée, vos données peuvent également être partagées avec les partenaires
@@ -171,6 +199,11 @@ définies par Google (généralement 14 à 26 mois selon le type de donnée), ap
 Vous pouvez à tout moment modifier vos préférences de consentement publicitaire directement depuis
 l'application, dans <strong>Paramètres → Gérer mes préférences de confidentialité</strong>.
 </p>
+<p>
+Pour demander la suppression de votre identifiant anonyme, de votre pseudonyme, de votre code d'ami,
+de vos relations d'amitié ou de vos résultats de jeu stockés sur nos serveurs, contactez-nous à
+l'adresse indiquée dans la section « Contact » ci-dessous.
+</p>
 
 <h2>7. Publicité et identifiants</h2>
 <p>
@@ -194,8 +227,8 @@ des mécanismes de sécurité propres à votre système d'exploitation (iOS / An
 
 <h2>10. Modifications de cette politique</h2>
 <p>
-Cette politique peut être mise à jour, notamment en cas d'ajout de nouvelles fonctionnalités (par exemple un
-système de classement entre amis). La date de dernière mise à jour en haut de cette page reflète la version en vigueur.
+Cette politique peut être mise à jour en cas d'ajout de nouvelles fonctionnalités ou de nouveaux partenaires
+techniques. La date de dernière mise à jour en haut de cette page reflète la version en vigueur.
 </p>
 
 <h2>11. Contact</h2>
